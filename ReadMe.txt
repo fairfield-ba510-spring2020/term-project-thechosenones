@@ -11,9 +11,9 @@ term-project-thechosenones/CourseDataETL.ipynb
 
 The code includes
 - SQL code to create the tables, per our ERD
-- Python is used to automate the import data.  In a previous this was done manually via renaming and relocating the files, and reading them through the terminal
-- SQl code to validate the imports 
-- SQL code to insert the imported data into appropriate table in the database
+- Python is used to automate the import data.  In a previous iteration this was done manually via renaming and relocating the files, and reading them through the terminal.
+- SQl code to validate the imports.
+- SQL code to insert the imported data into appropriate table in the database.
 - Deletion of the import tables after they are no longer necessary, followed by a vacuum.
 
 3) The third deliverable was to run some code to validate the ETL from (2).  This can be found here:
@@ -32,4 +32,8 @@ term-project-thechosenones/CourseDataWarehouseETL.ipynb
 
 This was similar to the steps 1 and 2 described in this document.
 
-5) The fifth deliverable was to test the integrity and functionality of the data warehouse.  This was done in two documents.  The first document was to simply test the success of the ETL with simple queries of the tables in the datawarehouse.  The second document has more advanced queries with specific questions in mind.  Those two documents can be foundher
+5) The fifth deliverable was to test the integrity and functionality of the data warehouse.  This was done in two documents.  The first document was to simply test the success of the ETL with simple queries of the tables in the datawarehouse.  The second document has more advanced queries with specific questions in mind.  Those two documents can be found at the below listed locations:
+
+term-project-thechosenones/DataWarehouseTest.ipynb
+
+term-project-thechosenones/DataWarehouseDemo.ipynb
